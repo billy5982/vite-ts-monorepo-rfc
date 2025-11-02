@@ -5,7 +5,7 @@ import dts from 'vite-plugin-dts';
 export default defineConfig({
   plugins: [
     dts({
-      include: ['src/**/*', '../lib/src/**/*'],
+      include: ['../lib/src/**/*', 'src/**/*'],
       outDir: 'dist/types'
     })
   ],

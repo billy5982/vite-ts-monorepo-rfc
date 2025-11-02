@@ -5,12 +5,18 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build && tsc --emitDeclarationOnly"
   },
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/lib.js"
+      "types": "./dist/types/app/src/index.d.ts",
+      "import": "./dist/unified-library.es.js",
+      "require": "./dist/unified-library.cjs.js"
+    },
+    "./core": {
+      "types": "./dist/types/lib/src/index.d.ts",
+      "import": "./dist/unified-library.es.js",
+      "require": "./dist/unified-library.cjs.js"
     }
   },
   "dependencies": {
