@@ -6,3 +6,8 @@ foo()
 foo2()
 bar()
 bar2()
+
+type A  = number;
+const a: A = 1;
+
+export { a };

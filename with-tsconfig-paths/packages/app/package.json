@@ -7,8 +7,15 @@
     "dev": "vite",
     "build": "vite build"
   },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/lib.js"
+    }
+  },
   "dependencies": {
-    "@test/lib": "workspace:*"
+    "@test/lib": "workspace:*",
+    "vite-plugin-dts": "^4.5.4"
   },
   "devDependencies": {
     "typescript": "^5.4.3",
