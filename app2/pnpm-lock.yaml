@@ -350,7 +350,7 @@ packages:
     resolution: {integrity: sha512-Kdv0k/BnnxIYFlMVC1IxrIS0oGQd4T4b7vKfx52Y2+wk2WZSDFIvedr7JrhenzSlm3ou5KwtoTGTGd5nbODRug==}
 
   '@test/app@file:lib/test-app-1.0.0.tgz':
-    resolution: {integrity: sha512-NxzQrDFf+sfd1LdLtRoIZcOlKsuJ+Et0kJalpxFa5Md5rGGQeOAJx/OhVjfQqCCHpT422Jd/OugRaDJD+a70qQ==, tarball: file:lib/test-app-1.0.0.tgz}
+    resolution: {integrity: sha512-qh/UVejx28oz16NBCPel+PWpS2kZpWEZsH9lX7y9UQol1G4KxYl5aF1sHsl54vkvDQcwN30DYwsyhsUux1GbYA==, tarball: file:lib/test-app-1.0.0.tgz}
     version: 1.0.0
 
   '@types/argparse@1.0.38':
